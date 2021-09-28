@@ -26,3 +26,4 @@ print(arquivo.read())
 
 #  OBS.: A função read() lê todo o conteúdo do arquivo e retorna uma string.
 
+arquivo.close()
