@@ -59,10 +59,9 @@ print(arq)
 print(dir(arq[0]))
 print(dir(arq[0].name))
 arquivos.close()  # Scandir sempre deve ser fechado
-"""
 
 import os
-
+"""
 
 
 
