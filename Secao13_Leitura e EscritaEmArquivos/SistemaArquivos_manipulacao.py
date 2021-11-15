@@ -18,10 +18,9 @@ with open('arquivo2.txt', 'w') as arq:
     pass  # = não faça nada 
 
 
-"""
 
 import os
-
+"""
 
 
 
