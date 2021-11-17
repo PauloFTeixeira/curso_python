@@ -6,7 +6,9 @@ a -> abre para escrita, adicionando o conteúdo no final do arquivo, sem apagar 
     OBS.:  No modo "A", se não existe ele cria, se existir ele escreve no final
 
 + -> abre no modo atualização, LEITURA e ESCRITA. Usado junto com outro modo
-"""
+
+
+
 
 with open('novo.txt', 'a+') as arq:
     arq.write('Atualização de teste \n')
@@ -15,4 +17,6 @@ with open('novo.txt', 'a+') as arq:
 with open('novo.txt', 'r') as arq:
     print(arq.read())
 
+
+"""
 

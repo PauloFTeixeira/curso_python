@@ -7,9 +7,7 @@ opem() ->  Na forma mais simples, é passado um parâmetro, que é o nome do arq
 retorna um __io.textIOWrapper para ser trabalhado.
 
 OBS.:  Por padrão, a função open() abre o arquivo somente para leitura. Este arquivo DEVE existir, ou então
-gera FileNotFoundError
-
-"""
+gera FileNo
 
 #  Exemplo
 
@@ -27,3 +25,6 @@ print(arquivo.read())
 #  OBS.: A função read() lê todo o conteúdo do arquivo e retorna uma string.
 
 arquivo.close()
+
+"""
+

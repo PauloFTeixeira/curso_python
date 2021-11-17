@@ -4,7 +4,8 @@ ATENÇÃO: Para ler ou escrever em arquivos no sistema, precisa-se de autorizaç
 StringIO: Utilizadp para criar e ler arquivos em memória
 
 
-"""
+
+
 
 #  Exemplo
 from io import StringIO
@@ -22,4 +23,8 @@ arquivo.write('Novamente um teste')
 print(arquivo.read())
 
 arquivo.close()
+
+
+"""
+
 
