@@ -21,7 +21,7 @@ def calcula(num1, num2, funcao):
 
 print(calcula(2, 2, soma))
 
-"""
+
 
 #  NESTED FUNCTION (função aninhada)
 
@@ -34,3 +34,5 @@ def cumprimenta_pessoa(pessoa):
 
 
 print(cumprimenta_pessoa("Paulo"))
+
+"""
